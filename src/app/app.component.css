@@ -1,0 +1,47 @@
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 16px 16px;
+}
+
+ .main-nav__item {
+    display: inline-block;
+    padding: 0 15px;
+  
+}
+
+.main-nav__item a {
+    text-decoration:  none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+
+.main-nav__item__cta a {
+    color: white;
+    background: red;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.main-header > div  {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+}

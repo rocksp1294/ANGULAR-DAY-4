@@ -1,0 +1,25 @@
+<h2>CREATE JOB REQUEST</h2>
+<form class="jobrequest" (submit)="addNewRequest()">
+    
+    <label>Technical skill 1</label>
+    <input type="text" name="technicalskills1" [(ngModel)]="jobDescription.technicalSkills1">
+    <br>
+    <br>
+    <label> Technical skill 2</label>
+    <input type="text" name="technicalskills2" [(ngModel)]="jobDescription.technicalSkills2">
+    <br>
+    <br>
+    <label>Technical skill 3</label>
+    <input type="text" name="technicalskills3" [(ngModel)]="jobDescription.technicalSkills3">
+    <br>
+    <br>
+    <label>Employee's required </label>
+    <input type="number" name="requiredcandidates" [(ngModel)]="jobDescription.requiredCandidates">
+    <br>
+    <br>
+    <label>Status</label>
+    <input type="text" name="status" [(ngModel)]="jobDescription.status">
+<br>
+<br>
+    <button type="submit">Submit</button>
+</form>

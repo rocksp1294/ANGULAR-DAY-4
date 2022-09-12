@@ -1,0 +1,31 @@
+<p>hr-homepage works!</p>
+
+<h3>Job Description Details</h3>
+
+<table id ="jobdescription">
+    <tr>
+         <th>project Id</th>   
+          <th>Technical skill 1</th>
+        <th>Technical skill 2</th>
+        <th>Technical skill 3</th>
+        <th>Required Candidate</th>
+         <th>status</th>
+         <th>Action</th>
+    </tr>
+    <tr *ngFor="let jd of jobdescription">
+         <td>{{jd.projectDetails.projectId}}</td>
+         <td>{{jd.technicalSkills1}}</td>
+        <td>{{jd.technicalSkills2}}</td>
+        <td>{{jd.technicalSkills3}}</td>
+        <td>{{jd.requiredCandidates}}</td>
+        <td>{{jd.status}}</td>
+        <button (click)="publishToCareer(jd)">Publish to Careers</button> 
+    </tr> 
+
+</table>
+<br>
+<br>
+<button>Change Status</button> <button>Get Applicants</button>
+
+
+

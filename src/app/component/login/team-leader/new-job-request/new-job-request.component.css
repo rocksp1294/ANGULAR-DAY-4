@@ -1,0 +1,39 @@
+.jobrequest {
+    background-color: #2c96b66c;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    margin: 50px;
+}
+
+button {
+    background-color: darkcyan;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+input[type=text],[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* input[type=submit]:hover {
+    background-color:red;
+  } */
+
+  button:hover {   
+    opacity: 0.7;   
+} 

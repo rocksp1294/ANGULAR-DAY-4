@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+}
+.main-header {
+    width: 100%;
+    background: #05aecc;
+    padding: 8px 16px;
+}
+
+ .main-nav__item {
+    display: inline-block;
+    padding: 0 15px;
+  
+}
+
+.main-nav__item a {
+    text-decoration:  none;
+    color: #000000;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+
+.main-nav__item__cta a {
+    color: #000000;
+    background: #d4849e;
+    padding: 5px 15px;
+
+    border-radius: 10px;
+}
+
+.main-header > div  {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    color: #010813;
+    font-weight: bold;
+    font-size: large;
+}
+#career{
+    margin-left: 60px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#marquee{
+    font-weight: bold;
+    height: 40px;
+   font-size: xx-large;
+   color: black;
+  
+}
+
+.blink{
+    animation: blinker 2s linear infinite;
+    background-color: #05aecc;
+    font-family: sans-serif;
+    
+}
+@keyframes blinker {
+    50% {
+        color: #cc0505;
+        opacity: 0;
+    }
+}

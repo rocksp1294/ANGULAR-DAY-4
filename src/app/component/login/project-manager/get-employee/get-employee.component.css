@@ -1,0 +1,71 @@
+#jobdescription {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+  }
+  
+  h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  #jobdescription td, #jobdescription th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #jobdescription tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #jobdescription tr:hover {background-color: #ddd;}
+  
+  #jobdescription th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #05aecc;
+    color: white;
+  }
+  button {   
+    font-weight: bold;
+    text-align: center;
+        
+     color:darkblue;   
+     /* padding: 7px 10px;    */
+
+     margin: 0px 8px; 
+     margin-right: 50px;  
+     border: none;
+     border-radius: 10px;   
+     cursor: pointer;
+
+  }
+  /* #b1{
+    background-color: #227180;
+    padding : 10px;
+    margin: 0px 8px;
+    color: aliceblue; */
+
+  /* } */
+  #b2{
+    width: 10%;
+    padding : 10px;
+    margin: 0px 8px;
+    
+    background-color: #05aecc;
+  }
+
+  /* input[type=submit]:hover {
+    background-color:red;
+  } */
+
+  #b1{
+    padding : 5px;
+    margin: 0px 8px;
+    background-color: #05aecc;
+  }
+  button:hover {   
+    opacity: 0.7;   
+} 
+

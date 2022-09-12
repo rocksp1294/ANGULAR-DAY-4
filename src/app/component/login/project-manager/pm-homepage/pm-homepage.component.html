@@ -1,0 +1,35 @@
+<p>Welcome Project Manager</p>
+
+<h3>Job Description Details</h3>
+
+<table id ="jobdescription">
+    <tr>
+         <th>Job Id</th>
+         <th>project Id</th>
+        <th>Technical skill 1</th>
+        <th>Technical skill 2</th>
+        <th>Technical skill 3</th>
+        <th>Required Candidate</th>
+         <th>budget</th>
+         <th>status</th>
+         <th></th>
+    </tr>
+    <tr *ngFor="let pm of jobRequests">
+        <td>{{pm.jobId}}</td>
+        <td>{{pm.projectDetails.projectId}}</td>
+        <td>{{pm.technicalSkills1}}</td>
+        <td>{{pm.technicalSkills2}}</td>
+        <td>{{pm.technicalSkills3}}</td>
+        <td>{{pm.requiredCandidates}}</td>
+        <td>{{pm.remainingBudget}}</td>
+        <td>{{pm.status}}</td>
+        <td><div >
+            <button id="b2" (click)="getEmployee(pm.jobId)">Get Employee From Bench</button>
+            <button id="b2" [hidden]="!submitted" (click)="jobRequestApproved(pm)">Approved</button>
+        </div></td>
+        
+    </tr>
+</table>
+<br>
+<br>
+

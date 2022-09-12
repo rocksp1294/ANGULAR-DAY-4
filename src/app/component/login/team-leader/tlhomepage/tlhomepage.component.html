@@ -1,0 +1,26 @@
+<h3>Job Description Details</h3>
+
+<table id ="jobdescription">
+    <tr>
+         <th>project Id</th>
+         <th>project Name</th>
+        <th>Technical skill 1</th>
+        <th>Technical skill 2</th>
+        <th>Technical skill 3</th>
+        <th>Required Candidate</th>
+         <th>status</th>
+    </tr>
+    <tr *ngFor="let jd of allJobdescriptions">
+        <td>{{jd.jobId}}</td>
+        <td>{{jd.projectDetails.projectName}}</td> 
+        <td>{{jd.technicalSkills1}}</td>
+        <td>{{jd.technicalSkills2}}</td>
+        <td>{{jd.technicalSkills3}}</td>
+        <td>{{jd.requiredCandidates}}</td>
+        <td>{{jd.status}}</td>
+    </tr>
+
+</table>
+<br>
+<br>
+<button (click)="addNewrequest()">Generate Job Request</button>

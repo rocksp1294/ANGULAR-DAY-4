@@ -1,0 +1,38 @@
+<h3>Employee Details</h3>
+<table id ="jobdescription">
+    <tr>
+         <th>Emp Id</th>
+         <th>First Name</th>
+        <th>Last Name</th>
+        <th>Project Id</th>
+        <th>Contact</th>
+        <th>Hiredate</th>
+         <th>Highest Qualification</th>
+         <th>gender</th>
+         <th>CTC</th>
+         <th>ON Workbench</th>
+         <th>Technical skills 1</th>
+         <th>Technical skills 2</th>
+         <th>Technical skills 3</th>
+         <th>Reports_to</th>
+         <th>Action</th>
+    </tr>
+    <tr *ngFor="let pm of allemployeeDetails">
+        <td>{{pm.employeeId}}</td>
+        <td>{{pm.employeeFirstName}}</td>
+        <td>{{pm.employeeLastName}}</td>
+        <td>{{pm.projectDetails.projectId}}</td>
+        <td>{{pm.contactNo}}</td>
+        <td>{{pm.hiredate}}</td>
+        <td>{{pm.highestqualification}}</td>
+        <td>{{pm.gender}}</td>
+        <td>{{pm.ctc}}</td>
+        <td>{{pm.onWorkbench}}</td>
+        <td>{{pm.technicalskills1}}</td>
+        <td>{{pm.technicalskills2}}</td>
+        <td>{{pm.technicalskills3}}</td>
+        <td>{{pm.reportsto}}</td>
+        <td><button id="b1" (click)="changeInEmployeeDetails(pm)">Add Employee In Project</button></td>
+    </tr>
+</table>
+<button (click)="backToApproval()">Back to Approval</button>
